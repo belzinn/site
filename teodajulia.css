@@ -138,6 +138,10 @@ main img.pequena{
     display: block;
     margin: auto;
 }
+.pepe{
+    text-align: center;
+    
+}
 .video{
     background-image: linear-gradient(to bottom, var(--cor5), var(--cor1));
     margin: 0px -20px  30px -20px;
@@ -145,10 +149,6 @@ main img.pequena{
     padding-bottom: 59%;
     position: relative;
     border: 3px solid rgb(5, 0, 7);
-}
-.video>p{
-    text-align: center;
-    
 }
 .video>iframe{
     position: absolute;
@@ -164,20 +164,19 @@ aside{
     padding: 10px;
     border-radius: 10px;
 }
-footer{
+footer {
+    color: rgb(38, 0, 128);
+    text-align: center;
+    font-size: 1.5em;
+    padding: 3px;
+  }
+  footer{
     background-color: var(--cor4);
     color: #ffffff;
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
 }
-
-footer a{
-    color: #ffffff;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
 footer a:hover{
     text-decoration: underline;
     color: var(--cor2);
